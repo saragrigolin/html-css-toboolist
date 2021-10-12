@@ -93,7 +93,7 @@ li.title-task > ul{
     font-weight: normal;
 }
 
-.task button{
+.check, .cross{
     border-radius: 100%;
     margin-right: 4px;
     width: 20px;
@@ -113,3 +113,35 @@ li.title-task > ul{
     font-size: 0.6em;
 }
 
+.label{
+    margin-left: 5px;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 0.6em;
+}
+
+.label.editorial{
+    background-color:#45ABE9;
+}
+
+.label.goals{
+    background-color: #9B72E5;
+}
+
+.label.recruiting{
+    background-color: #64C0A9;
+}
+
+.label.mobile{
+    background-color: #F29D33;
+}
+
+.label.website{
+    background-color: #D962A0;
+}
+
+.label.sales{
+    background-color: #B0C826;
+}
