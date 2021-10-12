@@ -1,14 +1,18 @@
+/* reset css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 100%;
 }
 
+/* body */
 body{
     background-color: #F7F8F9;
 }
 
+/* header */
 header{
     background-color: #FFFFFF;
     height: 70px;
@@ -23,4 +27,38 @@ header img{
 
 header h1{
     display: inline-block;
+    font-size: 2em;
+}
+
+/* main */
+main{
+    background-color: #FFFFFF;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+
+/* header button */
+.header{
+    border-bottom: 1px solid #D8DCDF;
+    padding-left: 7%;
+    font-size: 0.8em;
+}
+
+.header button{
+    margin: 10px 0px 7px 0px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#add-task{
+    background-color: #47ADF1;
+    color: white;
+    border: none;
+}
+
+#add-section{
+    background-color: white;
+    color: #D8DCDF;
+    border: 1px solid #D8DCDF;
 }
