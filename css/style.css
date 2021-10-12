@@ -16,8 +16,8 @@ body{
 header{
     background-color: #FFFFFF;
     height: 70px;
+    padding: 10px 0;
     line-height: 50px;
-    padding: 10px 10px;
 }
 
 header img{
@@ -67,6 +67,10 @@ main{
 .title-task{
     padding: 20px 0px 5px 7%;
     font-weight: bold;
+}
+
+li.title-task > h2{
+    display: inline-block;
 }
 
 li.title-task > button{
