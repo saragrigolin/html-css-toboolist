@@ -93,6 +93,7 @@ li.title-task > ul{
     font-weight: normal;
 }
 
+/* elenco tasks  */
 .check, .cross{
     border-radius: 100%;
     margin-right: 4px;
@@ -113,6 +114,7 @@ li.title-task > ul{
     font-size: 0.6em;
 }
 
+/* etichette colorate */
 .label{
     margin-left: 5px;
     padding: 8px;
