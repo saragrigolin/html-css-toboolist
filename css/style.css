@@ -16,8 +16,7 @@ body{
 header{
     background-color: #FFFFFF;
     height: 70px;
-    padding: 10px 0;
-    line-height: 50px;
+    padding: 10px 0px 10px 10px;
 }
 
 header img{
@@ -28,6 +27,7 @@ header img{
 header h1{
     display: inline-block;
     font-size: 2em;
+    vertical-align: middle;
 }
 
 /* main */
@@ -75,7 +75,6 @@ li.title-task > h2{
 
 li.title-task > button{
     border: none;
-    font-size: 100%;
     width: 20px;
     height: 20px;
     background-color: white;
