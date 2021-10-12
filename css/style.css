@@ -54,7 +54,7 @@ main{
 #add-task{
     background-color: #47ADF1;
     color: white;
-    border: none;
+    border: 1px solid #47ADF1;
 }
 
 #add-section{
