@@ -62,3 +62,18 @@ main{
     color: #D8DCDF;
     border: 1px solid #D8DCDF;
 }
+
+/* to-do list */
+.title-task{
+    padding: 20px 0px 5px 7%;
+    font-weight: bold;
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+.task{
+    padding: 5px 7%;
+    font-size: 0.9em;
+}
