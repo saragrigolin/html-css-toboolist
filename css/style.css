@@ -69,30 +69,47 @@ main{
     font-weight: bold;
 }
 
+li.title-task > button{
+    border: none;
+    font-size: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+li.title-task > ul{
+    padding-top: 5px;
+}
+
 .list ul{
     list-style-type: none;
 }
 
 .task{
-    padding: 5px 7%;
+    padding: 5px 0%;
     font-size: 0.9em;
+    font-weight: normal;
 }
 
-.list button{
+.task button{
     border-radius: 100%;
     margin-right: 4px;
     width: 20px;
     height: 20px;
-    font-size: 0.6em;
     background-color: white;
+    cursor: pointer;
 }
-
-.check{
+.check {
     border: 1px solid green;
     color: green;
+    font-size: 0.6em;
 }
 
 .cross{
     border: 1px solid red;
     color: red;
+    font-size: 0.6em;
 }
+
